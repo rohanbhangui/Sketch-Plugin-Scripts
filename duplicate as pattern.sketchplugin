@@ -1,6 +1,6 @@
 // duplicate the selection and put the clone into the other edge.
 
-var layer = selection[0];
+var layer = context.selection[0];
 var frame = [layer frame];
 
 var parent = [layer parentGroup];
